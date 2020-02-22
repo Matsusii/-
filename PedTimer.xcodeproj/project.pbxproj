@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		590CBC2923FFD2D4004F1BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590CBC2823FFD2D4004F1BB9 /* AppDelegate.swift */; };
+		590CBC2B23FFD2D4004F1BB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590CBC2A23FFD2D4004F1BB9 /* SceneDelegate.swift */; };
+		590CBC3023FFD2D4004F1BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590CBC2E23FFD2D4004F1BB9 /* Main.storyboard */; };
+		590CBC3223FFD2D7004F1BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590CBC3123FFD2D7004F1BB9 /* Assets.xcassets */; };
+		590CBC3523FFD2D7004F1BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590CBC3323FFD2D7004F1BB9 /* LaunchScreen.storyboard */; };
+		590CBC4023FFD2D8004F1BB9 /* PedTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590CBC3F23FFD2D8004F1BB9 /* PedTimerTests.swift */; };
+		590CBC4B23FFD2D8004F1BB9 /* PedTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590CBC4A23FFD2D8004F1BB9 /* PedTimerUITests.swift */; };
+		590CBC5923FFE00A004F1BB9 /* PedoMeterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590CBC5823FFE00A004F1BB9 /* PedoMeterViewController.swift */; };
+		590CBC5B23FFE02D004F1BB9 /* ToDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590CBC5A23FFE02D004F1BB9 /* ToDestinationViewController.swift */; };
+		590CBC5D23FFE03B004F1BB9 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590CBC5C23FFE03B004F1BB9 /* LobbyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		590CBC3C23FFD2D8004F1BB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590CBC1D23FFD2D4004F1BB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 590CBC2423FFD2D4004F1BB9;
+			remoteInfo = PedTimer;
+		};
+		590CBC4723FFD2D8004F1BB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590CBC1D23FFD2D4004F1BB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 590CBC2423FFD2D4004F1BB9;
+			remoteInfo = PedTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		590CBC2523FFD2D4004F1BB9 /* PedTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PedTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		590CBC2823FFD2D4004F1BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		590CBC2A23FFD2D4004F1BB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		590CBC2F23FFD2D4004F1BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		590CBC3123FFD2D7004F1BB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		590CBC3423FFD2D7004F1BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		590CBC3623FFD2D7004F1BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590CBC3B23FFD2D8004F1BB9 /* PedTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		590CBC3F23FFD2D8004F1BB9 /* PedTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedTimerTests.swift; sourceTree = "<group>"; };
+		590CBC4123FFD2D8004F1BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590CBC4623FFD2D8004F1BB9 /* PedTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		590CBC4A23FFD2D8004F1BB9 /* PedTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedTimerUITests.swift; sourceTree = "<group>"; };
+		590CBC4C23FFD2D8004F1BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590CBC5823FFE00A004F1BB9 /* PedoMeterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedoMeterViewController.swift; sourceTree = "<group>"; };
+		590CBC5A23FFE02D004F1BB9 /* ToDestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDestinationViewController.swift; sourceTree = "<group>"; };
+		590CBC5C23FFE03B004F1BB9 /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		590CBC2223FFD2D4004F1BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590CBC3823FFD2D8004F1BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590CBC4323FFD2D8004F1BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		590CBC1C23FFD2D4004F1BB9 = {
+			isa = PBXGroup;
+			children = (
+				590CBC2723FFD2D4004F1BB9 /* PedTimer */,
+				590CBC3E23FFD2D8004F1BB9 /* PedTimerTests */,
+				590CBC4923FFD2D8004F1BB9 /* PedTimerUITests */,
+				590CBC2623FFD2D4004F1BB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		590CBC2623FFD2D4004F1BB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				590CBC2523FFD2D4004F1BB9 /* PedTimer.app */,
+				590CBC3B23FFD2D8004F1BB9 /* PedTimerTests.xctest */,
+				590CBC4623FFD2D8004F1BB9 /* PedTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		590CBC2723FFD2D4004F1BB9 /* PedTimer */ = {
+			isa = PBXGroup;
+			children = (
+				590CBC2823FFD2D4004F1BB9 /* AppDelegate.swift */,
+				590CBC2A23FFD2D4004F1BB9 /* SceneDelegate.swift */,
+				590CBC2E23FFD2D4004F1BB9 /* Main.storyboard */,
+				590CBC5C23FFE03B004F1BB9 /* LobbyViewController.swift */,
+				590CBC5823FFE00A004F1BB9 /* PedoMeterViewController.swift */,
+				590CBC5A23FFE02D004F1BB9 /* ToDestinationViewController.swift */,
+				590CBC3123FFD2D7004F1BB9 /* Assets.xcassets */,
+				590CBC3323FFD2D7004F1BB9 /* LaunchScreen.storyboard */,
+				590CBC3623FFD2D7004F1BB9 /* Info.plist */,
+			);
+			path = PedTimer;
+			sourceTree = "<group>";
+		};
+		590CBC3E23FFD2D8004F1BB9 /* PedTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				590CBC3F23FFD2D8004F1BB9 /* PedTimerTests.swift */,
+				590CBC4123FFD2D8004F1BB9 /* Info.plist */,
+			);
+			path = PedTimerTests;
+			sourceTree = "<group>";
+		};
+		590CBC4923FFD2D8004F1BB9 /* PedTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				590CBC4A23FFD2D8004F1BB9 /* PedTimerUITests.swift */,
+				590CBC4C23FFD2D8004F1BB9 /* Info.plist */,
+			);
+			path = PedTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		590CBC2423FFD2D4004F1BB9 /* PedTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590CBC4F23FFD2D8004F1BB9 /* Build configuration list for PBXNativeTarget "PedTimer" */;
+			buildPhases = (
+				590CBC2123FFD2D4004F1BB9 /* Sources */,
+				590CBC2223FFD2D4004F1BB9 /* Frameworks */,
+				590CBC2323FFD2D4004F1BB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PedTimer;
+			productName = PedTimer;
+			productReference = 590CBC2523FFD2D4004F1BB9 /* PedTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		590CBC3A23FFD2D8004F1BB9 /* PedTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590CBC5223FFD2D8004F1BB9 /* Build configuration list for PBXNativeTarget "PedTimerTests" */;
+			buildPhases = (
+				590CBC3723FFD2D8004F1BB9 /* Sources */,
+				590CBC3823FFD2D8004F1BB9 /* Frameworks */,
+				590CBC3923FFD2D8004F1BB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590CBC3D23FFD2D8004F1BB9 /* PBXTargetDependency */,
+			);
+			name = PedTimerTests;
+			productName = PedTimerTests;
+			productReference = 590CBC3B23FFD2D8004F1BB9 /* PedTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		590CBC4523FFD2D8004F1BB9 /* PedTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590CBC5523FFD2D8004F1BB9 /* Build configuration list for PBXNativeTarget "PedTimerUITests" */;
+			buildPhases = (
+				590CBC4223FFD2D8004F1BB9 /* Sources */,
+				590CBC4323FFD2D8004F1BB9 /* Frameworks */,
+				590CBC4423FFD2D8004F1BB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590CBC4823FFD2D8004F1BB9 /* PBXTargetDependency */,
+			);
+			name = PedTimerUITests;
+			productName = PedTimerUITests;
+			productReference = 590CBC4623FFD2D8004F1BB9 /* PedTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		590CBC1D23FFD2D4004F1BB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = com.iitech;
+				TargetAttributes = {
+					590CBC2423FFD2D4004F1BB9 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					590CBC3A23FFD2D8004F1BB9 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 590CBC2423FFD2D4004F1BB9;
+					};
+					590CBC4523FFD2D8004F1BB9 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 590CBC2423FFD2D4004F1BB9;
+					};
+				};
+			};
+			buildConfigurationList = 590CBC2023FFD2D4004F1BB9 /* Build configuration list for PBXProject "PedTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 590CBC1C23FFD2D4004F1BB9;
+			productRefGroup = 590CBC2623FFD2D4004F1BB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				590CBC2423FFD2D4004F1BB9 /* PedTimer */,
+				590CBC3A23FFD2D8004F1BB9 /* PedTimerTests */,
+				590CBC4523FFD2D8004F1BB9 /* PedTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		590CBC2323FFD2D4004F1BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590CBC3523FFD2D7004F1BB9 /* LaunchScreen.storyboard in Resources */,
+				590CBC3223FFD2D7004F1BB9 /* Assets.xcassets in Resources */,
+				590CBC3023FFD2D4004F1BB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590CBC3923FFD2D8004F1BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590CBC4423FFD2D8004F1BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		590CBC2123FFD2D4004F1BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590CBC5B23FFE02D004F1BB9 /* ToDestinationViewController.swift in Sources */,
+				590CBC5D23FFE03B004F1BB9 /* LobbyViewController.swift in Sources */,
+				590CBC2923FFD2D4004F1BB9 /* AppDelegate.swift in Sources */,
+				590CBC2B23FFD2D4004F1BB9 /* SceneDelegate.swift in Sources */,
+				590CBC5923FFE00A004F1BB9 /* PedoMeterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590CBC3723FFD2D8004F1BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590CBC4023FFD2D8004F1BB9 /* PedTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590CBC4223FFD2D8004F1BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590CBC4B23FFD2D8004F1BB9 /* PedTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		590CBC3D23FFD2D8004F1BB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 590CBC2423FFD2D4004F1BB9 /* PedTimer */;
+			targetProxy = 590CBC3C23FFD2D8004F1BB9 /* PBXContainerItemProxy */;
+		};
+		590CBC4823FFD2D8004F1BB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 590CBC2423FFD2D4004F1BB9 /* PedTimer */;
+			targetProxy = 590CBC4723FFD2D8004F1BB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		590CBC2E23FFD2D4004F1BB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				590CBC2F23FFD2D4004F1BB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		590CBC3323FFD2D7004F1BB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				590CBC3423FFD2D7004F1BB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		590CBC4D23FFD2D8004F1BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		590CBC4E23FFD2D8004F1BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		590CBC5023FFD2D8004F1BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HCPM5YM56;
+				INFOPLIST_FILE = PedTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matsushii.PedTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		590CBC5123FFD2D8004F1BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HCPM5YM56;
+				INFOPLIST_FILE = PedTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matsushii.PedTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		590CBC5323FFD2D8004F1BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HCPM5YM56;
+				INFOPLIST_FILE = PedTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matsushii.PedTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PedTimer.app/PedTimer";
+			};
+			name = Debug;
+		};
+		590CBC5423FFD2D8004F1BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HCPM5YM56;
+				INFOPLIST_FILE = PedTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matsushii.PedTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PedTimer.app/PedTimer";
+			};
+			name = Release;
+		};
+		590CBC5623FFD2D8004F1BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HCPM5YM56;
+				INFOPLIST_FILE = PedTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matsushii.PedTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PedTimer;
+			};
+			name = Debug;
+		};
+		590CBC5723FFD2D8004F1BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HCPM5YM56;
+				INFOPLIST_FILE = PedTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matsushii.PedTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PedTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		590CBC2023FFD2D4004F1BB9 /* Build configuration list for PBXProject "PedTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590CBC4D23FFD2D8004F1BB9 /* Debug */,
+				590CBC4E23FFD2D8004F1BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590CBC4F23FFD2D8004F1BB9 /* Build configuration list for PBXNativeTarget "PedTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590CBC5023FFD2D8004F1BB9 /* Debug */,
+				590CBC5123FFD2D8004F1BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590CBC5223FFD2D8004F1BB9 /* Build configuration list for PBXNativeTarget "PedTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590CBC5323FFD2D8004F1BB9 /* Debug */,
+				590CBC5423FFD2D8004F1BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590CBC5523FFD2D8004F1BB9 /* Build configuration list for PBXNativeTarget "PedTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590CBC5623FFD2D8004F1BB9 /* Debug */,
+				590CBC5723FFD2D8004F1BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 590CBC1D23FFD2D4004F1BB9 /* Project object */;
+}
